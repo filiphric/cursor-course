@@ -1,0 +1,16 @@
+{
+  "name": "cursor-course",
+  "version": "1.0.0",
+  "description": "Workshop on Cursor and other AI tools",
+  "scripts": {
+    "app": "cd playground/trelloapp && npm run start",
+    "postinstall": "git submodule update --init --recursive --remote && cd playground/trelloapp && npm install && cd .. && npx playwright install"
+  },
+  "keywords": [],
+  "author": "Filip Hric",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "latest",
+    "@types/node": "latest"
+  }
+}
