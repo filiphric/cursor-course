@@ -33,13 +33,7 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
       testMatch: /.*\.challenge\.spec\.ts/,
       dependencies: ['setup'],
-    },
-    {
-      name: 'solutions',
-      use: { ...devices['Desktop Chrome'] },
-      testMatch: /.*\.solution\.spec\.ts/,
-      dependencies: ['setup'],
-    },
+    }
   ],
   webServer: {
     command: 'cd trelloapp && npm start',

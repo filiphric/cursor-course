@@ -47,3 +47,6 @@ Inline edits work really well if you want to:
 
 > 💡 Tip: You can use arrow up to go back to the previous message. 
 
+# Useful links
+
+- [Cursor documentation](https://docs.cursor.com/)
