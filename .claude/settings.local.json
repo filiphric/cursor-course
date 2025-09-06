@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx playwright test:*)"
+      "Bash(npx playwright test:*)",
+      "mcp__github__list_workflow_runs",
+      "mcp__github__get_job_logs",
+      "mcp__github__list_branches"
     ],
     "deny": [],
     "ask": []

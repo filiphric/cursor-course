@@ -22,7 +22,9 @@ jobs:
         cache: 'npm'
     
     - name: Install dependencies
-      run: npm install
+      run: |
+        # Override postinstall to avoid --remote flag issue with GitHub Actions
+        cd playground/trelloapp && npm install && cd .. && npx playwright install
     
     - name: Run Playwright test for Chapter 5
       run: cd playground && npx playwright test 05_claude_code.example.spec.ts --project=examples
