@@ -23,7 +23,9 @@ jobs:
     
     - name: Install dependencies
       run: |
-        # Override postinstall to avoid --remote flag issue with GitHub Actions
+        # Install root dependencies first (includes @playwright/test)
+        npm install --ignore-scripts
+        # Then install submodule dependencies and Playwright browsers
         cd playground/trelloapp && npm install && cd .. && npx playwright install
     
     - name: Run Playwright test for Chapter 5
