@@ -5,7 +5,13 @@
       "mcp__github__list_workflow_runs",
       "mcp__github__get_job_logs",
       "mcp__github__list_branches",
-      "mcp__github__get_me"
+      "mcp__github__get_me",
+      "mcp__github__list_workflows",
+      "mcp__playwright__browser_navigate",
+      "Bash(npm start)",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_press_key"
     ],
     "deny": [],
     "ask": []
