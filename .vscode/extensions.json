@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "vscode-icons-team.vscode-icons",
+    "DorianMassoulier.repomix-runner",
+    "ms-playwright.playwright",
+    "Anthropic.claude-code"
+  ]
+}
