@@ -1,4 +1,4 @@
-# Cursor Course Workshop
+# Cursor Workshop
 
 A comprehensive workshop repository for learning AI-powered development tools like Cursor, featuring a complete Trello clone application and structured Playwright testing examples.
 

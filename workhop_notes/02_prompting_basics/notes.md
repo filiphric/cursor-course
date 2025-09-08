@@ -110,3 +110,10 @@ You can also use AI to create visual representations of your application flows.
 Gemini can generate a Mermaid diagram, which is a Markdown notation for diagrams, and then you can use that same diagram to visualize something to the Agent.
 
 Arguably, you could use images to provide more context, it’s kinda hard to say which one is better.
+
+## Useful links
+
+- [Jack Dorsey's vibe coding tips](https://engineering.block.xyz/blog/jack-dorseys-vibe-coding-tips)
+- [GPT-5 prompting guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)
+- [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Gemini for Google Workspace prompting guide](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf)

@@ -63,3 +63,4 @@ Workflows are similar to rules, but they are more of a step by step set of instr
 ## Resources
 
 [Awesome Cursor Rules Repo](https://github.com/PatrickJS/awesome-cursorrules)
+[get-rules repository](https://github.com/johnlindquist/get-rules/)
