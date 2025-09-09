@@ -64,3 +64,4 @@ Workflows are similar to rules, but they are more of a step by step set of instr
 
 [Awesome Cursor Rules Repo](https://github.com/PatrickJS/awesome-cursorrules)
 [get-rules repository](https://github.com/johnlindquist/get-rules/)
+[tips on how to use AGENTS.md](https://www.builder.io/blog/agents-md)
